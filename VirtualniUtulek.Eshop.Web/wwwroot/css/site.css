@@ -1,0 +1,150 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 800px;
+  width: 100%;
+  background-attachment: fixed;
+}
+
+.welcometext{
+  background-color: rgba(255, 165, 0, 0.7);
+  width: 70%;
+  padding: 20px;
+  margin: 0;
+  text-align: left;
+}
+
+.welcomebutton {
+  background-color: orange;
+  color: #fff;
+  text-decoration: none;
+  outline-style: solid;
+  outline-color: black;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 18px;
+  text-align: center;
+}
+
+.welcomebutton:hover {
+  background-color: #ff9900;
+}
+
+.onas{
+  text-align: left;
+  color: saddlebrown;
+  font-weight: 1000;
+  -webkit-text-stroke: 1px black;
+
+}
+
+.onasp{
+  text-align: left;
+  justify-content: left;
+  font-size: 21px;
+}
+
+.service{
+  background-color: #c5c5c5;
+  padding-top: 50px;
+  padding-bottom: 50px;
+
+}
+
+.service-box{
+  background-color: #cccccc;
+  overflow: hidden;
+  width: 50%;
+  align-items: center;
+  margin: 20px auto;
+  padding-top: 35px;
+  border-radius: 20px 20px 20px 20px;
+  position: relative;
+}
+
+
+.service-img{
+  width: auto;
+  height: 200px;
+}
+
+.service-button{
+  background-color: white;
+  color: #000000;
+  text-decoration: none;
+  outline-style: solid;
+  outline-color: black;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 18px;
+  text-align: center;
+}
+
+.service-button:hover{
+  color: black;
+}
+
+.login{
+  width: 25%
+}
+
+.kontakty{
+  text-align: center;
+  background-color: orange;
+
+}
+
+.kontaky-row{
+  padding-left: 15px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.kontaky-col{
+  padding-bottom: 50px;
+  text-align: left;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.mapa{
+  margin-top: 15px;
+  background-color: #c9c9c9;
+  height: 760px;
+  width: 100px;
+  margin-right: 50px;
+}
+
+footer{
+  background-color: white;
+}
